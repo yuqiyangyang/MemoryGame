@@ -65,7 +65,6 @@ public class Memory{
       }
     }System.out.println();//to change the line
   }
-  
   //1d
   //a guess is considered to be valid if both positions represent a possible index of the array
   //if they do not refer to a card/element that has already been guessed
@@ -100,7 +99,6 @@ public class Memory{
       }
     } return true;
   }
-  
   //1g
   public static void playMemory(){
 //create a scanner
@@ -126,14 +124,9 @@ public class Memory{
         diplayCards(memory, guess1, guess2);
         checkAndUpdate(memory, guess1, guess2);
       }
-     
       count++;
     }
-    
     System.out.println("Congratulations! You finishd the game with only "+ count+ " tries");
-    
-    
-    
   }
 }
 
