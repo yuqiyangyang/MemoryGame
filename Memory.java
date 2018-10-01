@@ -1,6 +1,3 @@
-//student name: Yuqi Yang
-//student number:260365378
-
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
